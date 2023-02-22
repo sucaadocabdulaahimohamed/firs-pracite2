@@ -1,0 +1,135 @@
+-----------example1.html------------------
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ww.sydict.com</title>
+</head>
+<body>
+<h1 style="text-align: center; color: blue;">lesson one html</h1>
+<hr style="border: 1px solid blue;">
+<h2>heading 2</h2>
+<h3>heading 3</h3>
+<h4 style="background-color: grey; ">heading 4</h4>
+<h5>heading 5</h5>
+<h6>heading 6</h6>
+</body>
+</html>
+-------------example2.html--------------
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p style="font-size: 18pt;">kani waa paragraph one</p>
+<p>Eng <b>Dayah Jarmal</b>waa macalinka noo dhigo<i>Technology</i>waxuu nagu baraa xarunt<u>SYD ICT
+</u>; ku taal<mark>Bakaaraha</mark></p>
+<p><big>X<sup>3</sup>+X<sup>2</sup>+10</big></p>
+<p>formula watar:<b>H<sub>2</sub>0</b></p>
+</body>
+</html>
+
+-------------example3.html-------------
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#names{
+			background-color: pink;
+			width: 20%;
+		    }
+		    #names li{
+		     	border: 1px solid black;
+		     	margin: 5px;
+		     	padding: 5px;
+		     	border-radius: 8px;
+		     	text-align: center;
+		     	background-color: green;
+		     	color: white;
+		     	font-size: 16px;
+		     	 }
+		     	 #names li:hover{background-color: #1f1f1f; color: white;}
+
+	</style>
+</head>
+<body>
+<ol type="I" id="names">
+	<li>Eng Ahmed</li>
+	<li>Eng liiban</li>
+	<li>Eng deeqo</li>
+	<li>Eng Zakariye</li>
+	<li>Eng Samiiro</li>
+</ol>
+<p>Qudaarta:</p>
+<ul style="list-style-type: circle; "> 
+	<li>Moos</li>
+	<li>Cambe</li>
+	<li>liin;
+	<ol>
+		<li>liis Manaac</li>
+		<li>liin dhanaan</li>
+		<li>liin balbalmeemo</li>
+	</ol>
+	</li>
+	<li>Babaay</li>
+</ul>
+<dl>
+	<dt>programing:</dt>
+	<dd>java</dd>
+	<dd>python</dd>
+	<dt>Databases:</dt>
+	<dd>Oracle</dd>
+	<dd>Mysql</dd>
+</dl>	
+</body>
+</html>
+
+------------------example4.html---------------
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		table{width: 100%;}
+		table,th,td{border: 1px solid blue; border-collapse: collapse;}
+		th,td{text-align: center;padding: 5px;}
+		thead{background-color: lightblue;}
+	</style>
+</head>
+<body>
+<table>
+	  <thead>
+	  	<tr>
+	  		<th>No</th><th>Name</th><th>Tell</th><th>Address</th>
+	  	</tr>
+	  </thead>
+	  <tbody>
+	  	<tr><td>1</td><td>Ahmed</td><td>061567890</td><td contenteditable="true"></td></tr>
+	  	<tr><td>2</td><td>Samiro</td><td>06159785</td><td contenteditable="true"></td></tr>
+	  	<tr><td>3</td><td>Zaki</td><td>061467889</td><td contenteditable="true"></td></tr>
+	  	<tr><td>4</td><td>Deeqo</td><td>06166780</td><td contenteditable="true"></td></tr>
+
+	  	  <tr>
+	  	  	<th rowspan="4">Family</th>
+	  	  	<tr><td>xaliimo</td><td>98657</td><td>yaqshii</td></tr>
+	  	  	<tr><td>Jamiilo</td><td>967873</td><td>madian</td></tr>
+	  	  	<tr><td>Jamac</td><td>868637</td><td>karaan</td></tr>
+	  	  </tr>
+	  	<tr><td>5</td><td>Mohamed</td><td>0618556</td><td contenteditable="true"></td></tr>
+	  	<tr><td>6</td><td>Salmo</td><td>06196786</td><td contenteditable="true"></td></tr>
+	  </tbody>
+	  <tfoot><tr><th>Total</th><td colspan="3"style="text-align: right;">4 person</td></tr></tfoot>
+
+
+</table>
+
+</body>
+</html>
+
+
+
+
